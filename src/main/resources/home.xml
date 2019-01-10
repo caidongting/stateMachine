@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+
+    <logger name="org.apache.zookeeper.ClientCnxn" level="debug"/>
+    <logger name="org.apache.curator.framework.imps.CuratorFrameworkImpl" level="debug"/>
+    <logger name="home.Znode" level="debug"/>
+    <logger name="home.Gate" level="debug"/>
+
+</configuration>
