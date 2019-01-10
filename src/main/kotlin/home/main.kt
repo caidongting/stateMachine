@@ -6,8 +6,8 @@ import kotlinx.coroutines.launch
 
 
 fun main(args: Array<String>) {
-//  Gate.init()
-//  Gate.start()
+  Gate.init()
+  Gate.start()
 //  Gate.close()
 
 
