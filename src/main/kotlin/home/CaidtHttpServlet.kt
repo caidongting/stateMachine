@@ -11,7 +11,7 @@ class CaidtHttpServlet : HttpServlet() {
   }
 
   override fun doPost(req: HttpServletRequest, resp: HttpServletResponse) {
-//    Gate.start()
+    Gate.start()
   }
 
 }

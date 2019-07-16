@@ -16,10 +16,10 @@ class Znode {
 
   fun start() {
     curatorFramework = CuratorFrameworkFactory.builder()
-       .connectString(zooKeeperPath)
-       .sessionTimeoutMs(4000)
-       .retryPolicy(ExponentialBackoffRetry(1000, 3))
-       .build()
+        .connectString(zooKeeperPath)
+        .sessionTimeoutMs(4000)
+        .retryPolicy(ExponentialBackoffRetry(1000, 3))
+        .build()
     curatorFramework.start()
     logger.debug("Znode stated!")
   }
