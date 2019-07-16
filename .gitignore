@@ -5,7 +5,3 @@ out
 gen### Gradle template
 .gradle
 /build/
-src/main/java/
-src/test/java/
-src/test/resources/
-
